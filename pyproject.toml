@@ -12,10 +12,11 @@ repository = "https://github.com/tradingstrategy-ai/tradingview-defi-strategy"
 [tool.poetry.dependencies]
 python = ">=3.11,<=3.12"
 pytest = ">=7.3.0"
-# trade-executor = {version = "0.3", extras = ["web-server", "execution", "quantstats", "data"]}
+# trade-executor = {version =  "0.3", extras = ["web-server", "execution", "quantstats", "data"]}
 trade-executor = {git = "https://github.com/tradingstrategy-ai/trade-executor.git", extras = ["web-server", "execution", "quantstats", "data"], rev = "master" }
+tradingview-candles = {git = "git@github.com-personal:anton21m/tradingview-candles.git", rev = "main" }
 ipython = ">=8.12.0"
-ipdb = ">=0.13.13"
+ipdb = ">=0.13.13" 
 
 [build-system]
 requires = ["poetry-core"]

@@ -6010,7 +6010,7 @@ web-server = ["WebTest (>=3.0.0,<4.0.0)", "openapi-core (==0.19.1)", "pyramid (>
 type = "git"
 url = "https://github.com/tradingstrategy-ai/trade-executor.git"
 reference = "master"
-resolved_reference = "9f10872dcdff8c7e7f2ccec805d988eda8fd21a9"
+resolved_reference = "d3e82017455b563b3fc2c11c85d2846fc3f0fc86"
 
 [[package]]
 name = "trading-strategy"
@@ -6043,6 +6043,21 @@ qstrader = ["scipy (>=1.6.1,<2.0.0)", "trading-strategy-qstrader (>=0.5.0,<0.6.0
 [package.source]
 type = "directory"
 url = ".venv/src/trade-executor/deps/trading-strategy"
+
+[[package]]
+name = "tradingview-candles"
+version = "0.1.0"
+description = "TradingView get candles from pair"
+optional = false
+python-versions = "*"
+files = []
+develop = false
+
+[package.source]
+type = "git"
+url = "git@github.com-personal:anton21m/tradingview-candles.git"
+reference = "main"
+resolved_reference = "cb69d420edda947973d998e0a698c64956676740"
 
 [[package]]
 name = "traitlets"
@@ -6920,4 +6935,4 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<=3.12"
-content-hash = "4859dd99e36fc8d8bd6949dd4a0684c82e187f84612dfeb7900b852af232a474"
+content-hash = "df3816f9596cd2f5acd3dd9a4396efab87cd6dd36294f9c321f47f773341dfeb"

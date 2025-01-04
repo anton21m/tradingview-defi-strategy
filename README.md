@@ -1,3 +1,10 @@
+# install fork 
+Все возможные проблемы описаны тут https://github.com/tradingstrategy-ai/tradingview-defi-strategy/issues/1
+
+1. Install python 3.11, venv, poetry
+2. poetry shell && poetry install
+ 
+ 
  # Porting PineScript-based trading strategies to DeFi
 
 This is an example Python project on how to convert TradingView-based PineScript algorithmic 
